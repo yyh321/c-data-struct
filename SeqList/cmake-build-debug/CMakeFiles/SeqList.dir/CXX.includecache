@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yyh123/Documents/my/data_struct/SeqList/SeqList.h
+stdio.h
+-
+assert.h
+-
+
+/Users/yyh123/Documents/my/data_struct/SeqList/main.cpp
+iostream
+-
+SeqList.h
+/Users/yyh123/Documents/my/data_struct/SeqList/SeqList.h
+
